@@ -1,0 +1,5 @@
+a = float(input('Qual é a altura?: '))
+b = float(input('Qual é a base?: '))
+area = a * b
+
+print(area)
