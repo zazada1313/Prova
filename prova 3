@@ -1,0 +1,9 @@
+numero = 7
+n2 = ''
+
+while n2 != numero:
+    n2 = int(input('Tente adivinhar o número do sistema: '))
+    if n2 != numero:
+       print('Tente novamente')
+    else:
+        print('Parabéns, você acertou')
